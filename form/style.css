@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e1cccc !important;
+}
+
+.form1 {
+  align-items: center;
+  min-height: 100vh;
+}
+
+.openpopup {
+  display: flex;
+  justify-content: flex-end;
+  margin: 35px;
+}
+
+form {
+  border-radius: 52px;
+  background: #e1cccc;
+  box-shadow: 22px 22px 37px #c6b4b4, -22px -22px 37px #fce4e4;
+  padding: 40px;
+  width: 640px;
+  margin-left: 14px;
+}
+form .form-control-plaintext,
+form .form-control {
+  margin-bottom: 22px;
+  padding-left: 14px;
+  margin-right: 8px;
+  box-shadow: inset 2px 2px 5px #BABECC, inset -5px -5px 10px #e1cccc;
+  width: 100%;
+  box-sizing: border-box;
+  transition: all 0.2s ease-in-out;
+  -moz-appearance: none;
+       appearance: none;
+  -webkit-appearance: none;
+  border-radius: 50px;
+}
+form .form-control-plaintext:focus,
+form .form-control:focus {
+  box-shadow: inset 1px 1px 2px #BABECC, inset -1px -1px 2px #e1cccc;
+  border: 0.5px solid #e1cccc;
+}
+form .form-control-plaintext:focus-visible,
+form .form-control:focus-visible {
+  border: 0.5px solid #e1cccc;
+}
+
+.hide {
+  display: none;
+}
+
+.form2 {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.form1move {
+  display: flex;
+}
+
+.cross {
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 30px;
+}/*# sourceMappingURL=style.css.map */

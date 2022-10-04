@@ -34,14 +34,15 @@ form {
     padding: 40px;
     width: $ruler*40;
     margin-left: 14px;
+    transition: all 0.3s ease-in-out;
 
     .form-control-plaintext,
     .form-control {
         margin-bottom: 22px;
         padding-left: 14px;
         margin-right: $ruler/2;
-        box-shadow: inset 2px 2px 5px $color-shadow, inset -5px -5px 10px #e1cccc;
-        width: 100%;
+        box-shadow: 2px 2px 5px $color-shadow, -5px -5px 10px #e1cccc;
+        // width: 100%;
         box-sizing: border-box;
         transition: all 0.2s ease-in-out;
         appearance: none;
@@ -68,15 +69,18 @@ form {
     position: absolute;
     top: 15px;
     right: 15px;
+    .values{
+        display: flex;
+        width: 100%;
+        margin-top: 35px;
+    }
 }
 .form1move{
     display: flex;
 }
 .cross{
     cursor: pointer;
-    display: flex;
-    justify-content: flex-end;
-    margin-bottom: 30px;
+    float: right;
 }
 
 

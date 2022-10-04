@@ -26,14 +26,14 @@ form {
   padding: 40px;
   width: 640px;
   margin-left: 14px;
+  transition: all 0.3s ease-in-out;
 }
 form .form-control-plaintext,
 form .form-control {
   margin-bottom: 22px;
   padding-left: 14px;
   margin-right: 8px;
-  box-shadow: inset 2px 2px 5px #BABECC, inset -5px -5px 10px #e1cccc;
-  width: 100%;
+  box-shadow: 2px 2px 5px #BABECC, -5px -5px 10px #e1cccc;
   box-sizing: border-box;
   transition: all 0.2s ease-in-out;
   -moz-appearance: none;
@@ -60,6 +60,11 @@ form .form-control:focus-visible {
   top: 15px;
   right: 15px;
 }
+.form2 .values {
+  display: flex;
+  width: 100%;
+  margin-top: 35px;
+}
 
 .form1move {
   display: flex;
@@ -67,7 +72,5 @@ form .form-control:focus-visible {
 
 .cross {
   cursor: pointer;
-  display: flex;
-  justify-content: flex-end;
-  margin-bottom: 30px;
+  float: right;
 }/*# sourceMappingURL=style.css.map */
